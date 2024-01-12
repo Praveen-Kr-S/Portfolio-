@@ -9,7 +9,7 @@
     position: absolute;
     top: 150px;
     left: 100px;
-    width: 50%;
+    width: 45%;
     text-align: center;
 }
 
@@ -80,4 +80,49 @@
     font-weight: 600;
     padding: 9px 45px;
     border: 1px solid black !important;
+}
+
+
+/* media-quary */
+
+@media screen and (max-width : 576px) {
+
+    .topContent__container{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 60%;
+        text-align: center;
+    }
+
+    .topContent__container > p {
+        font-size: 13px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .topContent__container > h1 {
+        font-size: 20px;
+    }
+
+    .topContent__downloadButton{
+        font-weight: 600;
+        font-size: 9px;
+        padding: 3px 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .topContent__downloadButton:hover{
+        font-weight: 600;
+        font-size: 10px;
+        padding: 3px 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .topContent__workButton {
+        display: none;
+    }
+   
 }

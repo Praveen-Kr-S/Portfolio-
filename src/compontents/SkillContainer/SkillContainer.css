@@ -64,3 +64,26 @@
 .skillContainer__slider5 > span >.css-5xe99f-MuiLinearProgress-bar1  {
     background-color: rgb(255, 209, 6);
 }
+
+
+
+@media screen and (max-width : 576px) {
+    .skillContainer {
+        margin: 30px 0 30px 0;
+        padding: 30px 0 0 0;
+    }
+
+    .skillContainer__text > h2 {
+        font-size: 22px;
+    }
+
+    .skillContainer__image {
+        display: none;
+    }
+
+    .skillContainer__skillset > h5 {
+        font-weight: 600;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
+}

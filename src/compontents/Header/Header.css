@@ -63,3 +63,32 @@
     border-radius: 2px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width : 576px) {
+
+    .header__left {
+        flex: 0.35;
+    }
+    .header__right {
+        flex: 0.65;
+    }
+
+    .header__left > h1 {
+        font-size: 20px;
+    }
+    
+    .header__right > a > h4 {
+        font-size: 13px;
+        font-weight: 600;
+        padding: 5px 5px;
+        text-align: center;
+    }
+
+    .header__right > a > h4:hover{
+        font-size: 13px;
+        padding: 5px 5px;
+        background-color: black;
+    }
+    
+}
