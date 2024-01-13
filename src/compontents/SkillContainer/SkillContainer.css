@@ -69,6 +69,7 @@
 
 @media screen and (max-width : 576px) {
     .skillContainer {
+        width: 100% auto;
         margin: 30px 0 30px 0;
         padding: 30px 0 0 0;
     }

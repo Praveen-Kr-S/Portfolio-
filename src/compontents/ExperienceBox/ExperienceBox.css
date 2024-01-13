@@ -5,14 +5,15 @@
 .experienceBox{
     display: flex;
     flex-direction: column;
-    border: 2px dotted white;
+    border: 2px dotted crimson;
     border-radius: 10px;
     width: 200px;
     height: 150px;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #222;
     overflow: hidden;
+    width: 100% auto;
 }
 
 .experienceBox > h3 {
