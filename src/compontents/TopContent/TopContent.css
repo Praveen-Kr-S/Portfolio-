@@ -89,7 +89,7 @@
 
     .topContent__container{
         position: absolute;
-        top: 15px;
+        top: 10px;
         left: 10px;
         width: 55%;
         text-align: center;
@@ -97,9 +97,8 @@
 
     .topContent__container > p {
         font-size: 12px;
-        padding-top: 5px;
+        padding-top: 0px;
         text-align: center;
-        margin: auto;
     }
 
     .topContent__container > h1 {
